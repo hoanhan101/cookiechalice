@@ -1,4 +1,5 @@
 .chalice/deployments/
 .chalice/venv/
+.chalice/config.json
 __pycache__/
 {{cookiecutter.name}}/__pycache__/

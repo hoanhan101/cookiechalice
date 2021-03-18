@@ -11,5 +11,5 @@ config_scheme = Scheme(
 options = Bison(scheme=config_scheme)
 
 # Set the environment variable prefix and enable auto-env.
-options.env_prefix = "{{cookiecutter.name}}".upper()
+options.env_prefix = "{{cookiecutter.name|upper}}"
 options.auto_env = True
