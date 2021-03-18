@@ -22,7 +22,7 @@ logs-dev:  ## Show logs in dev
 logs-stage:  ## Show logs in stage
 	poetry run chalice logs -f --stage stage
 
-lint:  ## Run black, isort, flake8
+lint:  ## Run black, isort, mypy
 	poetry run black app.py chalicelib tests
 	poetry run isort app.py chalicelib tests
 	poetry run mypy app.py chalicelib tests
