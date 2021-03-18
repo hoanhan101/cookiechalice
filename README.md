@@ -1,6 +1,7 @@
 # cookiechalice
 
 cookiechalice is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for jumpstarting [AWS Chalice](https://github.com/aws/chalice) applications quickly. It supports:
+- Makefile for generating build/test/deploy targets.
 - [bison](https://github.com/edaniszewski/bison) for configuration.
 - [containerlog](https://github.com/vapor-ware/containerlog) for structured logging.
 - [requests](https://github.com/psf/requests) for HTTP support.
