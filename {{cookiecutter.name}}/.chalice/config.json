@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "app_name": "{{cookiecutter.name}}",
+  "environment_variables": {
+    "CAPEX_LOGGING": "info"
+  },
+  "stages": {
+    "local": {
+      "api_gateway_stage": "local",
+      "environment_variables": {
+        "CAPEX_LOGGING": "debug"
+      }
+    },
+    "dev": {
+      "api_gateway_stage": "dev",
+      "environment_variables": {
+        "CAPEX_LOGGING": "debug"
+      }
+    },
+    "stage": {
+      "api_gateway_stage": "stage",
+      "environment_variables": {
+        "CAPEX_LOGGING": "debug"
+      }
+    }
+  }
+}
